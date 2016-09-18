@@ -49,7 +49,7 @@ body {
 }
 @font-face {
     font-family: Thin; /* Имя шрифта */
-    src: url(../fonts/Thin.otf); /* Путь к файлу со шрифтом */
+    src: url(/fonts/Thin.otf); /* Путь к файлу со шрифтом */
    }
  #brand{
 
