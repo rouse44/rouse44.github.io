@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-#test1{
+#fon1{
  background-size: cover;
 background-origin: content-box;
 background-repeat: no-repeat;
@@ -11,9 +11,9 @@ background-repeat: no-repeat;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/5.jpg);
+  background-image: url(../img/3.jpg);
 }
-#test2{
+#fon2{
 background-size: cover;
 background-origin: content-box;
 background-repeat: no-repeat;
@@ -22,9 +22,9 @@ background-repeat: no-repeat;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/fon2.png);
+  background-image: url(../img/2.jpg);
 }
-#test3{
+#fon3{
 background-size: cover;
 background-origin: content-box;
 background-repeat: no-repeat;
@@ -33,7 +33,7 @@ background-repeat: no-repeat;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../img/6.jpg);
+  background-image: url(../img/1.jpg);
 }
 
 html {
@@ -49,7 +49,7 @@ body {
 }
 @font-face {
     font-family: Thin; /* Имя шрифта */
-    src: url(/fonts/Thin.otf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/thin.otf); /* Путь к файлу со шрифтом */
    }
  #brand{
 
@@ -80,7 +80,7 @@ margin-left: 20vw;
  	padding-left: 2.5vh;
  	padding-bottom: 1vh;
  	padding-right: 2.5vh;
- 	margin-left: 5vw;
+ 	margin-left: 4vw;
 font-family: Thin;
 font-size: calc(0.78vw + 0.78vh + 0.78vmin);
  	color:black;
