@@ -1,0 +1,37 @@
+#test2 {
+    
+    
+    
+    animation-name: example;
+    animation-duration: 15s;
+      
+   
+   animation-fill-mode: both;
+}
+
+@keyframes example {
+   from {left:0px;}
+    to {opacity:0; left:2000px;}
+    
+   
+}
+#test1 {
+    
+    
+   
+    animation-name: test;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    
+     animation-fill-mode: both;
+   
+   
+   
+}
+
+@keyframes test {
+    
+    
+    from {left:0px;}
+    to {opacity:0; left:2000px;}
+}
