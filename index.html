@@ -1,47 +1,111 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<link href="css/font-awesome.min.css" rel="stylesheet" >
-<link href="css/font-awesome.css" rel="stylesheet" >
-<link href="css/style.css" rel="stylesheet" >
-<link href="css/animation.css" rel="stylesheet" >
-<link href="css/mobistyle.css" rel="stylesheet" >
-
-
-
-	<title>Главная</title>
+	<title>Menu</title>
+<link href="./css/fonts.css" rel="stylesheet" >
+	<link href="./css/menu.css" rel="stylesheet" >
+	<link href="./css/animation.css" rel="stylesheet" >
+	<link href="./css/warning.css" rel="stylesheet">
+<script src="./js/cookies.js"> </script>
+<script src="./js/functions.js"> </script>
+	<script src="./js/backend.js"> </script>
 </head>
 <body>
-<div id='fon1'>
+<div id ="interface">
+	<h1 align="center" class="font">Play_In_Roullet</h1>
+	<h2 id="balance" class="font"> Баланс </h2>
+	<div id="stavka"> <input id="znstavki" type="text" placeholder="Поставить" >
+	</br>
+		<a id="createst" class="button">Сделать ставку</a>
+	</div>
+	</br>
+
+	<nav id='vibor'><a class="button" id="changecolors" href="#">Выбор по цветам</a>
+		<a class="button" id="changetype" href="#">Выбор по четным и не четным</a>
+		<a class="button" id="vvod" href="#">Ввести цифру</a>
+		<a class="button" id="changest" href="#">Изменить ставку</a>
+	</nav>
+	<div id="colors">
+		<a class="button" id="red" href="#">Красное</a>
+		<a class="button" id="black" href="#">Черное</a>
+		<a class="back" id="backclr"  href="#">Назад</a>
+	</div>
+	<div id="typech">
+		<a class="button" id="chet" href="#">Четное</a>
+		<a class="button" id="nechet" href="#">Нечетное</a>
+		<a class="back" id="backtype"  href="#">Назад</a>
+	</div>
+
+	<div id="number">
+		<p class="font">Введите число от 1-36 </p>
+		</br>
+		<select id="chislo" >
+	  	<option>1</option>
+	  	<option>2</option>
+			<option>3</option>
+	  	<option>4</option>
+			<option>5</option>
+	  	<option>6</option>
+			<option>7</option>
+	  	<option>8</option>
+			<option>9</option>
+	  	<option>10</option>
+			<option>11</option>
+	  	<option>12</option>
+			<option>13</option>
+	  	<option>14</option>
+			<option>15</option>
+	  	<option>16</option>
+			<option>17</option>
+	  	<option>18</option>
+			<option>19</option>
+	  	<option>20</option>
+			<option>21</option>
+	  	<option>22</option>
+			<option>23</option>
+	  	<option>24</option>
+			<option>25</option>
+	  	<option>26</option>
+			<option>27</option>
+	  	<option>28</option>
+			<option>29</option>
+	  	<option>30</option>
+			<option>31</option>
+	  	<option>32</option>
+			<option>33</option>
+	  	<option>34</option>
+			<option>35</option>
+	  	<option>36</option>
+		</select>
+		<a  id="backnumber"  href="#">Назад</a>
+	</div>
+	</br>
+		<a class="button" id="play" href="#"> крутить руллетку</a>
 </div>
-<div id='fon2'>
+<div id="rotaterullet">
+	<div id="wraproullet">
+	<img id="ruletka" src="/img/r.png">
+	</div>
+
+	<div id ="shadow" class="animation">
+		<div id="result">
+			<p id="winorlose"class="fontr">Вы выйграли  </p>
+			<p  id="resrull"class="fontr">9 красное </p>
+			<p  id="money" class="fontr">+100$</p>
+			<a class="fontr" id="continue">Продолжить </a>
+		</div>
+	</div>
+
+
 </div>
-<div id='fon3'>
+<div id="warning">
+	<div id ="wshadow" >
+		<div id="warningt">
+
+			<p class="wfont">За вами уже выехали!</p>
+			<a class="wfont" id="reset">Сбросить куки </a>
+		</div>
+	</div>
 </div>
-<div id="wrapper">
-
-<div id ="brand"> P&B</div>
-<div id ="brand2"> Passion&Beautiful </div>
-<nav id="navigation">
-<a  class="font-nav" href="index.html">Главная</a>
-<a  class="font-nav" href="/dost.html">Доставка</a>
-<a  class="font-nav" href="/about.html">О нас</a>
-
-</nav>
-
-<div id="buy1"><a id="buy" href="#buy">Перейти к покупкам</a></div>
-
-<footer>
-<nav id="seti">
-<a class="fa fa-vk" href="https://vk.com/passion_beautiful" aria-hidden="true"></a>
-<a class="fa fa-instagram" href="#insta" aria-hidden="true"></a>
-<a class="fa fa-facebook" href="#facebook" aria-hidden="true"></a>
-<a class="fa fa-youtube" href="#youtube" aria-hidden="true"></a>
-
-<nav>
-</footer>
-</div>
-
 </body>
-
 </html>
