@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "San Francisco";
+  src: url("../fonts/san.otf");
+}
+@font-face {
+    font-family: Thin; /* Имя шрифта */
+    src: url(../fonts/thin.otf); /* Путь к файлу со шрифтом */
+   }

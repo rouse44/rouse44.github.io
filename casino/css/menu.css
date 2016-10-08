@@ -1,0 +1,94 @@
+body{
+
+ background-size: cover;
+background-origin: content-box;
+background-repeat: no-repeat;
+
+background-image:url(../img/background.png);
+
+}
+
+   h1 {
+
+
+
+   }
+   .font{
+
+   	font-family: San Francisco;
+   	font-size: calc(1vw + 1vh + 1vmin);
+   }
+   .button{
+
+     font-family: San Francisco;
+     font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+margin-left: 2vw;
+border: 1px solid black;
+padding-top: 1vh;
+padding-left: 2.5vh;
+padding-bottom: 1vh;
+padding-right: 2.5vh;
+
+   }
+   .back{
+
+     font-family: San Francisco;
+     font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+     margin-left: 2vw;
+
+border: 1px solid black;
+padding-top: 1vh;
+padding-left: 2.5vh;
+padding-bottom: 1vh;
+padding-right: 2.5vh;
+
+   }
+   #balance{
+margin-left: 150vh;
+   }
+   #play{
+position: absolute;
+margin-top:20vh;
+margin-left: 15vw;
+background-color: orange;
+opacity: 0.8;
+   }
+   a{
+text-decoration: none;
+color:black;
+   }
+   #znstavki{
+width: 20vw;
+height:2vw;
+border: 1px solid black;
+font-family: San Francisco;
+font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+margin-left: 0px;
+   }
+   #createst{
+position: absolute;
+cursor: pointer;
+margin-top: 2vw;
+margin-left: 0px;
+
+   }
+   #chislo{
+
+    font-size: San Francisco;
+    font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+    height: 6vh;
+   }
+#backnumber{
+position: absolute;
+font-family: San Francisco;
+font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+
+
+border: 1px solid black;
+padding-top: 1vh;
+padding-left: 2.5vh;
+padding-bottom: 1vh;
+padding-right: 2.5vh;
+margin-left: 5vw;
+
+}

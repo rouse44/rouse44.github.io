@@ -1,0 +1,40 @@
+.wfont{
+font-family: San Francisco;
+font-size: calc(1.5vw + 1.5vh + 1.5vmin);
+color: white;
+margin-left:35vw;
+}
+#warningt{
+  position: absolute;
+   left: -1px;
+   width: 100%;
+   height: 45vh;
+margin-top: 25vh;
+padding-top: 3vh;
+
+
+}
+#wshadow{
+
+  position:absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+
+
+}
+#reset{
+cursor: pointer;
+border: 1px solid white ;
+font-size: calc(1.2vw + 1.2vh + 1.2vmin);
+margin-left: 40vw;
+padding-top: 1vh;
+padding-left: 2.5vh;
+padding-bottom: 1vh;
+padding-right: 2.5vh;
+position: absolute;
+
+
+}
